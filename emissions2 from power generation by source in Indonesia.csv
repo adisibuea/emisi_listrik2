@@ -1,0 +1,89 @@
+"emissions from power generation by source in Indonesia",Value,Year,Units
+"Coal",33.799,2000, Mt CO2
+"Coal",41.258,2001, Mt CO2
+"Coal",42.317,2002, Mt CO2
+"Coal",48.616,2003, Mt CO2
+"Coal",48.379,2004, Mt CO2
+"Coal",54.06,2005, Mt CO2
+"Coal",59.734,2006, Mt CO2
+"Coal",68.491,2007, Mt CO2
+"Coal",78.946,2008, Mt CO2
+"Coal",77.314,2009, Mt CO2
+"Coal",72.749,2010, Mt CO2
+"Coal",95.388,2011, Mt CO2
+"Coal",96.734,2012, Mt CO2
+"Coal",101.595,2013, Mt CO2
+"Coal",119.068,2014, Mt CO2
+"Coal",126.477,2015, Mt CO2
+"Coal",136.078,2016, Mt CO2
+"Coal",149.794,2017, Mt CO2
+"Coal",164.485,2018, Mt CO2
+"Coal",177.859,2019, Mt CO2
+"Coal",189.192,2020, Mt CO2
+"Coal",202.374,2021, Mt CO2
+"Oil",14.54,2000, Mt CO2
+"Oil",15.595,2001, Mt CO2
+"Oil",20.144,2002, Mt CO2
+"Oil",22.382,2003, Mt CO2
+"Oil",26.375,2004, Mt CO2
+"Oil",29.221,2005, Mt CO2
+"Oil",27.897,2006, Mt CO2
+"Oil",30.144,2007, Mt CO2
+"Oil",32.042,2008, Mt CO2
+"Oil",26.859,2009, Mt CO2
+"Oil",26.597,2010, Mt CO2
+"Oil",32.198,2011, Mt CO2
+"Oil",23.007,2012, Mt CO2
+"Oil",20.525,2013, Mt CO2
+"Oil",20.401,2014, Mt CO2
+"Oil",14.894,2015, Mt CO2
+"Oil",11.566,2016, Mt CO2
+"Oil",15.129,2017, Mt CO2
+"Oil",21.23,2018, Mt CO2
+"Oil",13.815,2019, Mt CO2
+"Oil",9.992,2020, Mt CO2
+"Oil",10.787,2021, Mt CO2
+"Natural gas",13.608,2000, Mt CO2
+"Natural gas",13.278,2001, Mt CO2
+"Natural gas",12.041,2002, Mt CO2
+"Natural gas",12.264,2003, Mt CO2
+"Natural gas",11.596,2004, Mt CO2
+"Natural gas",9.658,2005, Mt CO2
+"Natural gas",11.861,2006, Mt CO2
+"Natural gas",12.284,2007, Mt CO2
+"Natural gas",13.75,2008, Mt CO2
+"Natural gas",20.008,2009, Mt CO2
+"Natural gas",20.315,2010, Mt CO2
+"Natural gas",19.396,2011, Mt CO2
+"Natural gas",24.232,2012, Mt CO2
+"Natural gas",27.03,2013, Mt CO2
+"Natural gas",29.391,2014, Mt CO2
+"Natural gas",30.032,2015, Mt CO2
+"Natural gas",33.413,2016, Mt CO2
+"Natural gas",30.169,2017, Mt CO2
+"Natural gas",31.281,2018, Mt CO2
+"Natural gas",33.109,2019, Mt CO2
+"Natural gas",25.739,2020, Mt CO2
+"Natural gas",27.085,2021, Mt CO2
+"Other",,2000, Mt CO2
+"Other",,2001, Mt CO2
+"Other",,2002, Mt CO2
+"Other",,2003, Mt CO2
+"Other",,2004, Mt CO2
+"Other",,2005, Mt CO2
+"Other",,2006, Mt CO2
+"Other",,2007, Mt CO2
+"Other",,2008, Mt CO2
+"Other",,2009, Mt CO2
+"Other",,2010, Mt CO2
+"Other",0.024,2011, Mt CO2
+"Other",0.024,2012, Mt CO2
+"Other",0.033,2013, Mt CO2
+"Other",0.029,2014, Mt CO2
+"Other",0.016,2015, Mt CO2
+"Other",0.004,2016, Mt CO2
+"Other",0.004,2017, Mt CO2
+"Other",0,2018, Mt CO2
+"Other",0.017,2019, Mt CO2
+"Other",0.014,2020, Mt CO2
+"Other",0.009,2021, Mt CO2
