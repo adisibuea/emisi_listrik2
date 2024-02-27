@@ -13,7 +13,7 @@ with tab1:
     st.header("Emisi CO2 dari Energi")
     st.write("Emisi CO2 cenderung lebih tinggi di negara-negara yang perekonomiannya lebih maju, namun juga dapat sangat bervariasi tergantung pada struktur perekonomian dan sistem energinya. Misalnya, emisi per kapita akan lebih tinggi di negara-negara yang lebih bergantung pada moda transportasi padat karbon (seperti kendaraan pribadi dan penerbangan), mempunyai energi padat industri (seperti baja atau bahan kimia) atau sangat bergantung pada bahan bakar fosil untuk pembangkit listrik.")
     st.write("Angka di bawah ini mengacu pada emisi CO2 dari pembakaran bahan bakar di sektor energi. Data tersebut tidak mencakup sumber emisi gas rumah kaca penting lainnya yang terkait dengan energi seperti kebocoran metana dari operasi minyak dan gas, yang lebih sulit diukur.")
-    df = pd.read_csv(r"/workspaces/emisi_listrik2/CO2 emissions from fuel combustion, Indonesia.csv")
+    df = pd.read_csv("/workspaces/emisi_listrik2/CO2 emissions from fuel combustion, Indonesia.csv")
     df['Year'] = pd.to_datetime(df['Year'], format='%Y')
     df.rename(columns={'CO2 emissions from fuel combustion, Indonesia': 'CO2'}, inplace=True)
     # dashboard metric
@@ -48,7 +48,7 @@ with tab1:
     2. __Transportasi:__ Penggunaan bahan bakar fosil dalam transportasi, terutama bensin dan diesel, menyebabkan emisi CO2 yang signifikan. Mobil, truk, pesawat terbang, dan kapal yang menggunakan bahan bakar fosil menghasilkan CO2 selama proses pembakaran.
     3. __Industri:__ Proses industri yang mengandalkan energi dari bahan bakar fosil, seperti produksi logam, semen, dan kimia, juga berkontribusi terhadap emisi CO2. Energi dibutuhkan untuk memanaskan tungku, menghasilkan uap, dan menyediakan daya.""")
     # data kedua
-    df2 = pd.read_csv(r"/workspaces/emisi_listrik2/CO2 emissions by sector, Indonesia, 2021.csv")
+    df2 = pd.read_csv("/workspaces/emisi_listrik2/CO2 emissions by sector, Indonesia, 2021.csv")
     df2.rename(columns={'CO2 emissions by sector, Indonesia, 2021': 'Sektor'}, inplace=True)
     # bar sektor
     df = pd.DataFrame(df2)
@@ -97,8 +97,8 @@ with tab2:
     4. __Pembangkit Listrik Tenaga Biomassa:__ Menggunakan bahan organik seperti kayu, limbah pertanian, atau sampah organik untuk menghasilkan listrik.           
     5. __Pembangkit Listrik Tenaga Geotermal:__ Memanfaatkan panas bumi dari dalam bumi untuk menghasilkan uap dan menggerakkan turbin.""")
     # data ketiga
-    pembangkit = pd.read_csv(r"/workspaces/emisi_listrik2/Electricity generation sources, Indonesia, 2021.csv")
-    emisibbm= pd.read_csv(r"/workspaces/emisi_listrik2/Emissions from power generation by source, Indonesia, 2021.csv")
+    pembangkit = pd.read_csv("/workspaces/emisi_listrik2/Electricity generation sources, Indonesia, 2021.csv")
+    emisibbm= pd.read_csv("/workspaces/emisi_listrik2/Emissions from power generation by source, Indonesia, 2021.csv")
     pembangkit.rename(columns={'Electricity generation sources, Indonesia, 2021': 'sumber'}, inplace=True)
     emisibbm.rename(columns={'Emissions from power generation by source, Indonesia, 2021': 'sumber'}, inplace=True)
     merged_df2 = pd.merge(pembangkit, emisibbm, on='sumber')
@@ -140,8 +140,8 @@ with tab2:
     st.write("Pembangkit listrik berbahan bakar fosil melepaskan karbon dioksida (CO2) ke atmosfer sebagai hasil dari proses pembakaran bahan bakar untuk menghasilkan listrik. Kebanyakan pembangkit listrik, terutama yang menggunakan bahan bakar fosil, menyumbang signifikan pada emisi CO2, yang merupakan salah satu penyebab utama perubahan iklim global.")
     st.write("Pemahaman dan penanganan emisi CO2 dari pembangkit listrik merupakan bagian dari upaya global untuk mengatasi perubahan iklim dan beralih ke sistem energi yang lebih berkelanjutan. Investasi dalam teknologi bersih dan sumber energi terbarukan menjadi semakin penting untuk mencapai target mitigasi perubahan iklim.")
     # hubungan regresi
-    sumber_listrik = pd.read_csv(r"/workspaces/emisi_listrik2/electricity generation sources in Indonesia.csv")
-    karbon_listrik = pd.read_csv(r"/workspaces/emisi_listrik2/emissions2 from power generation by source in Indonesia.csv")
+    sumber_listrik = pd.read_csv("/workspaces/emisi_listrik2/electricity generation sources in Indonesia.csv")
+    karbon_listrik = pd.read_csv("/workspaces/emisi_listrik2/emissions2 from power generation by source in Indonesia.csv")
     karbon_listrik.rename(columns={'emissions from power generation by source in Indonesia': 'sumber2'}, inplace=True)
     sumber_listrik.rename(columns={'electricity generation sources in Indonesia': 'sumber'}, inplace=True)
         
